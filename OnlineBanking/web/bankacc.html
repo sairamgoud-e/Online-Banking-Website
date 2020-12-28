@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        <title>Add Bank</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+    <center>
+        <div class="cont">
+        <div class="inp">
+            <br><h1>ADD BANK ACCOUNT</h1><br><br>
+        <fieldset>  
+        <form action="verifybank" method="post" >
+           
+        <label>Select Bank &nbsp</label>
+        <select name="bank">
+            <option value="SBI">SBI</option>
+            <option value="KOTAKMAHENDRA">KOTAK MAHENDRA</option>
+            <option value="YESBANK">YES BANK</option>
+            <option value="AXISBANK">AXIS BANK</option>
+            <option value="HDFCBANK">HDFC BANK</option>
+            <option value="PAYTMBANK">PAYTM BANK</option>
+            <option value="ICICIBANK">ICICI BANK</option>
+            <option value="APGVBBANK">APGVB BANK</option>
+            <option value="UNIONBANK">UNION BANK</option>
+            
+           
+        </select><br><br>
+        
+        <label>Enter Acc no &nbsp</label><input type="text" name="accno" placeholder="Enter acc no" minlength="11" maxlength="11" required/><br><br>
+        <label>IFSC Code no&nbsp</label><input type="text" name="ifsc" placeholder="Enter IFSC" minlength="11" maxlength="11" required/><br><br>
+        <label>Enter registered mob no &nbsp</label><input type="text" name="regmobno" placeholder="Enter phno linked to your bank acc" minlength="10" maxlength="10" pattern="^[6-9]\d{9}$" required/><br><br>
+        <input type="submit" class="btn" value="ADD ACCOUNT">
+         
+        </form>
+            </fieldset>
+        </div>
+            </div>
+    </center>
+                    
+
+            </header>
+    </body>
+</html>
+

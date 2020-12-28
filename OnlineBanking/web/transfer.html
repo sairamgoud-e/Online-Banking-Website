@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        <title>Transfer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+    <center>
+        <div class="cont">
+        <div class="inp">
+            <br><h1>TRANSFER MONEY</h1><br><br>
+        <fieldset>  
+
+        <form action="transferdb" method="post" >
+        
+        <label>Recipient Username &nbsp</label><input type="text" name="runame" placeholder="Enter your username" required/><br><br>
+        <label>Recipient mobile no&nbsp</label><input type="text" name="rmobno" maxlength="10"  placeholder="Enter mobile number" minlength="10" pattern="^[6-9]\d{9}$" required/><br><br>
+        <label>Enter amount &nbsp</label><input type="number" name="amt" min="1" placeholder="Enter amount in rupees" required/><br><br>
+        <!--<label>Password &nbsp</label><input type="password" name="pswd"  size="50" required/><br><br>-->
+        <input type="submit" class="btn" value="SEND">
+        
+         
+        </form>
+            </fieldset>
+        </div>
+            </div>
+    </center>
+                    
+
+            </header>
+    </body>
+</html>
